@@ -1,6 +1,6 @@
 #### 1、能够计算二进制和十进制数之间的互转
 
-​	**十进制数据转成二进制数据：**使用除以2获取余数的方式
+​	**十进制数据转成二进制数据：**使用除以2获取余数的方式,倒排
 
 ​	**二进制数据转成十进制数据：**使用8421编码的方式  
 
@@ -101,11 +101,16 @@ Java程序开发三步骤：**编写**、**编译**、**运行**。
 
 ```java
 public class ConstantDemo { 
-  public static void main(String[] args){ //输出整数常量 
-  System.out.println(123); //输出小数常量
-  System.out.println(0.125); //输出字符常量 
-  System.out.println('A'); //输出布尔常量 
-  System.out.println(true); //输出字符串常量 
+  public static void main(String[] args){ 
+    //输出整数常量 
+  System.out.println(123); 
+    //输出小数常量
+  System.out.println(0.125); 
+    //输出字符常量 
+  System.out.println('A'); 
+    //输出布尔常量 
+  System.out.println(true); 
+    //输出字符串常量 
   System.out.println("你好Java"); }
 ```
 
@@ -124,7 +129,9 @@ public class ConstantDemo {
 
 四类八种基本数据类型： 
 
-![截屏2020-12-15 下午7.15.51](/Users/junion/GitHub/Macapp/截屏2020-12-15 下午7.15.51.png) 
+![截屏2020-12-15 下午7.15.51](/Users/junion/Desktop/截屏2020-12-15 下午7.15.51.png)
+
+
 
 注意事项：
 1. 字符串不是基本类型，而是引用类型。
